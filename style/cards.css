@@ -1,0 +1,30 @@
+.cont-img-card{
+    position: relative;
+}
+
+.cont-img-card h1{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 25%);
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0),black);
+}
+
+.devider{
+    font-family: monospace;
+    height: 100%;
+    display: flex;
+    place-content: center;
+    align-items: center;
+}
+
+/* Foto allenatori */
+.allenatore{
+    outline: 2px solid var(--secondary-respira);
+    outline-offset: 1px;
+    width: 100%;
+    border-radius: 50vw;
+    background-color: var(--primary-respira);
+}
