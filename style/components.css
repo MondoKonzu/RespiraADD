@@ -28,3 +28,37 @@
     border-radius: 50vw;
     background-color: var(--primary-respira);
 }
+
+/* Footer */
+.socials{
+    display: flex;
+    place-content: space-between;
+}
+
+.socials img{
+    width: 25%;
+    filter: grayscale(1);
+}
+
+.socials img:hover{
+    filter: grayscale(0);
+    transition:  1s;
+}
+
+.line{
+    display: flex;
+    align-items: center;
+}
+
+.line hr{
+    min-width: 100%;
+}
+
+@media only screen and (min-width: 992px) {
+    .socials{
+        padding: 0px 4rem;        
+    }
+    .socials img{
+        width: 20%;
+    }    
+}
