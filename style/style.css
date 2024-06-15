@@ -46,21 +46,41 @@ body > .row{
 }
 
 /* Barra di navigazione */
-.nav-item{
-    text-align: center;
-    margin: 0 2.4px;
-    padding: 0 1em;
-    min-width: 5vw;
-    transition: 0.2s;
+.navbar{
+    padding-top: 0.3em !important;
+    padding-bottom: 0.3em !important;
+    background-color: rgba(238, 28, 39, 0.95);
+    backdrop-filter: blur(10px);
 }
 
-.navbar{
-    backdrop-filter: blur(15px);
+.navbar * {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
 }
 
 .navbar-toggler{
-    margin-left: 87%;
-    border: none;
+    border: 0;
+    transition: 90ms;
+}
+
+.navbar-brand img:last-child{
+    width: 60% !important;
+    filter: invert(1);
+}
+
+.navbar-toggler-icon{
+    filter: invert(1);
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.navbar-toggler:active{
+    transition: 90ms;
+    transform: scale(1.1);
 }
 
 .margin-from-nav{
@@ -154,23 +174,23 @@ body > .row{
     width: fit-content;
     padding: 0 5rem;
     margin: auto;
-    border-radius: 0 0 50vw 50vw;
+    border-radius: 50vw;
 }
 
 .modal-body{
     overflow-wrap: break-word !important;
 }
 
-/* Responsive */
+/* Responsive md*/
 @media only screen and (max-width: 768px) {
-    .nav-item{
-        width: 50%;
-        margin: auto;
-        margin-bottom: 0.5vh;
-    }
-
     .margin-from-nav{
         margin-top: 38px;
     }
+}
 
+/* Responsive sm */
+@media only screen and (max-width: 576px) {
+    .nav-item{
+        margin: 0.2em auto 0em !important;
+    }
 }

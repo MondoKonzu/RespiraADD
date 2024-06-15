@@ -38,11 +38,13 @@
 .socials img{
     width: 25%;
     filter: grayscale(1);
+    transition:  800ms;
+
 }
 
 .socials img:hover{
     filter: grayscale(0);
-    transition:  1s;
+    transition:  800ms;
 }
 
 .line{
