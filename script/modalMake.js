@@ -50,7 +50,7 @@ function createHeader(pos){
     let header = document.createElement("div");
     header.classList.add("modal-header");
     let title = document.createElement("h1");
-    title.classList.add("modal-title", "fs-5", "text-primary-res");
+    title.classList.add("modal-title", "fs-1", "text-primary-res");
     title.innerHTML = info[pos].nome;
     header.append(title);
     header.append(createExit());
@@ -71,7 +71,9 @@ function createExit(){
 function createBody(pos){
     body = document.createElement("div");
     body.classList.add("modal-body");
-    body.innerHTML = info[pos].descrizione;
+    let text = document.createElement("p");
+    text.innerHTML = info[pos].descrizione;
+    body.append(text);
     return body;    
 }
 

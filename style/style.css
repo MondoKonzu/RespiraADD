@@ -186,11 +186,36 @@ body > .row{
     .margin-from-nav{
         margin-top: 38px;
     }
+
+    h6, p , div{
+        font-size: 1.15rem !important;
+    }
+    
+    .fs-4{
+        font-size: calc(1.3rem + 0.6vw) !important;
+    }
+
+    .fs-5{
+        font-size: calc(1.275rem + 0.3vw) !important;
+    }
+
 }
 
 /* Responsive sm */
 @media only screen and (max-width: 576px) {
     .nav-item{
         margin: 0.2em auto 0em !important;
+    }
+
+    h6, p , div{
+        font-size: 1.25rem !important;
+    }
+
+    .fs-4{
+        font-size: calc(1.3rem + 0.6vw) !important;
+    }
+
+    .fs-5{
+        font-size: calc(1.275rem + 0.3vw) !important;
     }
 }
