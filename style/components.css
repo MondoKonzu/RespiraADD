@@ -35,14 +35,18 @@
     place-content: space-between;
 }
 
-.socials img{
+.socials a{
     width: 25%;
     filter: grayscale(1);
     transition:  800ms;
 
 }
 
-.socials img:hover{
+.socials img{
+    width: 100% !important;
+}
+
+.socials a:hover{
     filter: grayscale(0);
     transition:  800ms;
 }
