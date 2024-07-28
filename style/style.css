@@ -1,22 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 :root{
     --primary-respira: rgb(238, 28, 37);
     --secondary-respira: rgb(247, 148, 29);
     --tertiary-respira: rgb(124, 30, 41);
     --fast-transition: 0.2s;
+    --font-salt-regular: "Rock Salt", cursive;
 }
 /* modifica necessaria al funzionamento effettivo della classe row */
 body > .row{
     max-width: 100%;
     margin-left: 0%;
 }
-/* font */
+/* fonts */
 .poetsen-one-regular {
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
+.rock-salt-regular {
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
 /* Base settings */
 /* Bg */
@@ -58,6 +67,11 @@ body > .row{
     margin-bottom: 0px !important;
     padding-top: 0px !important;
     padding-bottom: 0px !important;
+}
+
+.nav-item{
+    font-family: var(--font-salt-regular);
+    font-size: 1.07em !important;
 }
 
 .navbar-toggler{
@@ -110,7 +124,7 @@ body > .row{
 }
 
 .spots li{
-    width: 45%;
+    width: 50%;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
@@ -203,6 +217,10 @@ body > .row{
 
 /* Responsive sm */
 @media only screen and (max-width: 576px) {
+    .spots li{
+        width: 100%;
+    }
+
     .nav-item{
         margin: 0.2em auto 0em !important;
     }
