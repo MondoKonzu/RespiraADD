@@ -10,7 +10,7 @@
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(238, 28, 39);
+    background-color: rgba(238, 28, 39, 0.760);
     border-radius: 50vw;
     text-align: center;
     transition: 0.5s;
