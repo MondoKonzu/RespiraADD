@@ -2,9 +2,9 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 :root{
-    --primary-respira: rgb(238, 28, 37);
-    --secondary-respira: rgb(247, 148, 29);
-    --tertiary-respira: rgb(124, 30, 41);
+    --primary-respira: rgb(63, 224, 208);
+    --secondary-respira: rgb(126, 255, 212);
+    --tertiary-respira: rgb(10, 187, 181);
     --fast-transition: 0.2s;
     --font-salt-regular: "Rock Salt", cursive;
 }
@@ -58,7 +58,7 @@ body > .row{
 .navbar{
     padding-top: 0.3em !important;
     padding-bottom: 0.3em !important;
-    background-color: rgba(238, 28, 39, 0.95);
+    background-color: rgba(63, 224, 208, 0.70);
     backdrop-filter: blur(10px);
 }
 

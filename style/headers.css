@@ -7,10 +7,10 @@
 
 #present > div:first-of-type  {
     position: absolute;
-    bottom: 0%;
+    top: 0%;
     right: 0%;
-    transform: translate(-1%, -5%);
-    background-color: rgba(238, 28, 39, 0.760);
+    transform: translate(-1%, 5%);
+    background-color: rgba(10, 187, 181, 0.760);
     border-radius: 50vw;
     text-align: center;
     transition: 0.5s;
