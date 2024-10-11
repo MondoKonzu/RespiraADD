@@ -4,7 +4,7 @@
 :root{
     --primary-respira: rgb(63, 224, 208);
     --secondary-respira: rgb(126, 255, 212);
-    --tertiary-respira: rgb(10, 187, 181);
+    --tertiary-respira:  ;
     --fast-transition: 0.2s;
     --font-salt-regular: "Rock Salt", cursive;
 }
@@ -116,37 +116,14 @@ body > .row{
     transition: 1s;
     transform: translate(0%);
     opacity: 1;
+} 
+
+/*tabelle orari*/
+.table-respira *{
+    background-color: transparent!important;
+    text-align: center;
 }
 
-/* Lista spot */
-.spots{
-    list-style: none;
-}
-
-.spots li{
-    width: 50%;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.spots li:hover i{
-    transform: translateX(0%);
-    transition: var(--fast-transition);
-}
-
-.spots i{
-    fill: var(--primary-respira);
-    transform: translateX(100%);
-    transition: var(--fast-transition);
-    color: var(--primary-respira);
-}
-
-.spots a{
-    text-decoration: none;
-    color: var(--primary-respira);
-}
 
 .btn-close:focus{
     box-shadow: none;
