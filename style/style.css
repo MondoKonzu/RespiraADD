@@ -101,6 +101,20 @@ body > .row{
     margin-top: 39px;
 }
 
+/* Dropdown works */
+.nav-dropdown{
+    transform: translate(-70%, 13%);
+    background-color: rgba(63, 224, 208, 0.95);
+}
+
+.nav-dropdown a{
+    margin: 0.6rem 0.4rem !important;
+}
+
+.nav-dropdown a:hover{
+    background: none;
+}
+
 /* Oggetti con slide in */
 .myObsR{
     transform: translate(-75%);
@@ -109,6 +123,11 @@ body > .row{
 
 .myObsL{
     transform: translate(75%);
+    opacity: 0;
+}
+
+.myObsB{
+    transform: translate(0%, 75%);
     opacity: 0;
 }
 
