@@ -7,7 +7,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/components.css">
-    <link rel="stylesheet" href="../style/extraCard.css">
+    <link rel="stylesheet" href="../style/headers.css">
     <!-- Responsive -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,12 +34,27 @@
                             <li class="nav-item fs-5">
                                 <a class="nav-link text-white" href="./info.html">Info</a>
                             </li>
-                            <li class="nav-item fs-5">
-                                <a class="nav-link text-white" href="./orari.html">Orari</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#">Extra</a>
-                            </li>
+                                      <!-- Dropdown se schermo sopra sm -->
+          <li class="nav-item show-sm">
+            <div class="dropdown">
+              <a class="text-decoration-none text-white dropdown-toggle"
+              href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Altro
+              </a>
+            
+              <ul class="dropdown-menu nav-dropdown">
+                <li><a class="dropdown-item text-white" href="./extra.html">Esperienze Immersive</a></li>
+                <li><a class="dropdown-item text-white" href="#">Eventi e Collaborazioni</a></li>
+              </ul>
+            </div>
+          </li>
+          <!-- Incorpora i due elementi a tendina quando necessario -->
+          <li class="nav-item show-base">
+            <a class="dropdown-item text-white" href="./extra.html">Esperienze Immersive</a>
+          </li>
+          <li class="nav-item show-base">
+            <a class="dropdown-item text-white" href="#">Eventi e Collaborazioni</a>
+          </li>
                         </ul>
                     </div>
         </div>
@@ -52,14 +67,15 @@
         </div>
     </div>
 
-    <!-- Cards -->
+
+    <!-- Cards piano A-->
     <div class="row">
         <!-- Container -->
         <div class="col-12 col-md-10 mx-auto row">
             <!-- Card 1 -->
             <div class="col-lg-11 mx-auto myObsR">
-                <div class="bg-white border  border-black border-opacity-25 rounded-2 p-0 row overflow-hidden"> 
-                    <img src="../images/corsiBambini.jpg" class="col-12 col-sm-5 col-md-4 p-0" alt="">
+                <div class="bg-white border  border-black border-opacity-25 rounded-2 p-0 row overflow-hidden">
+                    <img src="../images/AndreMiri.jpg" class="col-12 col-sm-5 col-md-4 p-0" alt="">
                     <!-- Card body -->
                     <div class="col-12 col-sm-7 col-md-8  py-2 body-l">
                         <h5>RADD</h5>
@@ -80,34 +96,39 @@
                             inventore, veniam nulla dolorum exercitationem sed dolorem est laborum optio autem dolores
                             repellendus ex hic nemo harum.</p>
                     </div>
-                    <img src="../images/corsiBambini.jpg" class="col-12 col-sm-5 col-md-4 rounded-end-2 p-0" alt="">
+                    <img src="../images/AndreMiri.jpg" class="col-12 col-sm-5 col-md-4 rounded-end-2 p-0" alt="">
                 </div>
             </div>
         </div>
     </div>
 
-  <!-- Footer -->
-  <div class="row bg-black text-white py-3">
-    <!-- Social -->
-    <div class="col-12 row p-0 m-0">
-      <div class="col-3 col-md-4 col-lg-5 p-0 m-0 line"><hr class="text-white"></div>
-      <div class="col-6 col-md-4 col-lg-2 socials">
-        <!-- Instagram -->
-        <a target="_blank" href="https://www.instagram.com/respira_add?utm_source=qr&igsh=dGoxNWZ4Mm50MThu">
-          <img src="../images/instagram.png" alt="">
-        </a>
-        <!-- Facebook -->
-        <a href="https://www.facebook.com/respiraadd" target="_blank">
-          <img src="../images/facebook.png" alt="">
-        </a>
-        <!-- Gmail -->
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=segreteria@respiraarteinmovimento.com" target="_blank">
-          <img src="../images/mail.png" alt="">
-        </a>
-      </div>
-      <div class="col-3 col-md-4 col-lg-5 p-0 m-0 line"><hr class="text-white"></div>
+    <!-- Footer -->
+    <div class="row bg-black text-white py-3 fixed-bottom">
+        <!-- Social -->
+        <div class="col-12 row p-0 m-0">
+            <div class="col-3 col-md-4 col-lg-5 p-0 m-0 line">
+                <hr class="text-white">
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 socials">
+                <!-- Instagram -->
+                <a target="_blank" href="https://www.instagram.com/respira_add?utm_source=qr&igsh=dGoxNWZ4Mm50MThu">
+                    <img src="../images/instagram.png" alt="">
+                </a>
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/respiraadd" target="_blank">
+                    <img src="../images/facebook.png" alt="">
+                </a>
+                <!-- Gmail -->
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=segreteria@respiraarteinmovimento.com"
+                    target="_blank">
+                    <img src="../images/mail.png" alt="">
+                </a>
+            </div>
+            <div class="col-3 col-md-4 col-lg-5 p-0 m-0 line">
+                <hr class="text-white">
+            </div>
+        </div>
     </div>
-  </div>
 
     <!-- Scripts -->
     <script src="../script/script.js"></script>
