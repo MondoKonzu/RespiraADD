@@ -115,27 +115,9 @@ body > .row{
     background: none;
 }
 
-/* Oggetti con slide in */
-.myObsR{
-    transform: translate(-75%);
-    opacity: 0;
-}
 
-.myObsL{
-    transform: translate(75%);
-    opacity: 0;
-}
 
-.myObsB{
-    transform: translate(0%, 75%);
-    opacity: 0;
-}
 
-.fade-in{
-    transition: 1s;
-    transform: translate(0%);
-    opacity: 1;
-} 
 
 /*tabelle orari*/
 .table-respira *{
