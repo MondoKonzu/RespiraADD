@@ -1,43 +1,41 @@
+/* Oggetti con slide in (default per tutti gli schermi) */
+.myObsR {
+    transform: translate(-75%);
+    opacity: 0;
+}
+
+.myObsL {
+    transform: translate(75%);
+    opacity: 0;
+}
+
+.myObsB {
+    transform: translate(0%, 75%);
+    opacity: 0;
+}
+
+/* Quando lo schermo è >= 768px, le classi con prefisso md- hanno la precedenza */
 @media only screen and (min-width: 768px) {
 
-    /* Oggetti con slide in Default*/
-.md-myObsR{
-    transform: translate(-75%);
-    opacity: 0;
+    .md-myObsR {
+        transform: translate(-75%);
+        opacity: 0;
+    }
+
+    .md-myObsL {
+        transform: translate(75%);
+        opacity: 0;
+    }
+
+    .md-myObsB {
+        transform: translate(0%, 75%);
+        opacity: 0;
+    }
 }
 
-.md-myObsL{
-    transform: translate(75%);
-    opacity: 0;
-}
-
-.md-myObsB{
-    transform: translate(0%, 75%);
-    opacity: 0;
-}
-}
-
-/* Oggetti con slide in under md*/
-@media only screen and (max-width: 767px) {
-
-.myObsR{
-    transform: translate(-75%);
-    opacity: 0;
-}
-
-.myObsL{
-    transform: translate(75%);
-    opacity: 0;
-}
-
-.myObsB{
-    transform: translate(0%, 75%);
-    opacity: 0;
-}
-}
-
-.fade-in{
+/* Animazione di fade-in */
+.fade-in {
     transition: 1s;
     transform: translate(0%);
     opacity: 1;
-} 
+}
