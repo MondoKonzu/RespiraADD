@@ -12,7 +12,7 @@ function actionPerformed(entry, observer){
 }
 
 addEventListener("DOMContentLoaded", () => {
-    vid.playbackRate = 0.5;
+    vid.playbackRate = 0.1;
     console.log(vid.playbackRate)
     //crea ed assegna un obs a ogni elemento di texts
     //la creazione di più obs è necessaria per eseguire
