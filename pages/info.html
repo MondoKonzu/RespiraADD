@@ -20,55 +20,42 @@
     <!-- Navbar Container-->
     <nav class="navbar navbar-expand-sm bg-primary-res fixed-top">
         <div class="container-fluid pe-2">
-          <a class="navbar-brand" href="../index.html"><img src="../images/RespiraFont.png" alt=""><a>
-          <button class="navbar-toggler px-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse d-md-flex justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item fs-5">
-                <a class="nav-link text-white " href="../index.html">Home</a>
-              </li>
-              <li class="nav-item fs-5">
-                <a class="nav-link text-white" href="#">Info</a>
-              </li>
-          <!-- Dropdown se schermo sopra sm -->
-          <li class="nav-item show-sm">
-            <div class="dropdown">
-              <a class="text-decoration-none text-white dropdown-toggle"
-              href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Altro
-              </a>
-            
-              <ul class="dropdown-menu nav-dropdown">
-                <li><a class="dropdown-item text-white" href="./extra.html">Esperienze Immersive</a></li>
-                <li><a class="dropdown-item text-white" href="#">Eventi e Collaborazioni</a></li>
-              </ul>
-            </div>
-          </li>
-          <!-- Incorpora i due elementi a tendina quando necessario -->
-          <li class="nav-item show-base">
-            <a class="dropdown-item text-white" href="./extra.html">Esperienze Immersive</a>
-          </li>
-          <li class="nav-item show-base">
-            <a class="dropdown-item text-white" href="#">Eventi e Collaborazioni</a>
-          </li>
-            </ul>
-          </div>
+            <a class="navbar-brand" href="#"><img src="./images/RespiraFont.png" alt=""><a>
+                    <button class="navbar-toggler px-1" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse d-md-flex justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <!-- page home -->
+                            <li class="nav-item">
+                                <a class="nav-link text-white" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <!-- page info -->
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Info</a>
+                            </li>
+                            <!-- Page Eventi -->
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="./extra.html">Eventi</a>
+                            </li>
+                        </ul>
+                    </div>
         </div>
-      </nav>
+    </nav>
 
     <!-- present -->
     <div id="info-pres">
         <div class="pt-5 p-3">
             <h1 class="text-center">Orari</h1>
-            <!-- Scandicci -->
-            <table class="table table-respira">
+            <!-- Prato -->
+            <table class="table table-respira text-center">
                 <tr>
-                    <th colspan="2" class="text-center fs-4">Scandicci</th>
+                    <th colspan="2" class="text-center fs-4">Prato</th>
                 </tr>
                 <tr>
-                    <th colspan="2" class="fst-italic">Martedì e Venerdì</th>
+                    <th colspan="2" class="fst-italic">Lunedì e Giovedì</th>
                 </tr>
                 <tr>
                     <td>Bambini e Bambine</td>
@@ -83,13 +70,13 @@
                     <td>18:00 - 20:00</td>
                 </tr>
             </table>
-            <!-- Prato -->
-            <table class="table table-respira text-center">
+            <!-- Scandicci -->
+            <table class="table table-respira">
                 <tr>
-                    <th colspan="2" class="text-center fs-4">Prato</th>
+                    <th colspan="2" class="text-center fs-4">Scandicci</th>
                 </tr>
                 <tr>
-                    <th colspan="2" class="fst-italic">Lunedì e Giovedì</th>
+                    <th colspan="2" class="fst-italic">Martedì e Venerdì</th>
                 </tr>
                 <tr>
                     <td>Bambini e Bambine</td>
@@ -118,8 +105,7 @@
                     <div class="row p-1">
                         <div class="col-4">
                             <div class="p-2">
-                                <img src="../images/logoBlack.png"
-                                class="allenatore"  alt="">
+                                <img src="../images/presAndre.webp" class="allenatore" alt="">
                             </div>
                         </div>
                         <div class="col-8 p-0 d-flex align-items-center">
@@ -128,26 +114,27 @@
                     </div>
                     <!-- body carta -->
                     <div class="p-3">
-                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsum veritatis quisquam distinctio ut alias. Voluptates, ratione molestias, minus necessitatibus velit magni sapiente doloribus ut ab excepturi possimus quisquam architecto.</h6>
+                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsum veritatis quisquam
+                            distinctio ut alias. Voluptates, ratione molestias, minus necessitatibus velit magni
+                            sapiente doloribus ut ab excepturi possimus quisquam architecto.</h6>
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-try modalStart">
                             Vedi tutti
                         </button>
-    
+
                     </div>
                 </div>
             </div>
             <!-- placeholder -->
             <div class="col-1 d-none d-md-block"></div>
 
-             <!-- Allenatore 2 -->
-             <div class="mb-5 col-sm-10 col-md-5 mx-auto">
+            <!-- Allenatore 2 -->
+            <div class="mb-5 col-sm-10 col-md-5 mx-auto">
                 <div class="bg-white rounded shadow-sm">
                     <div class="row p-1">
                         <div class="col-4">
                             <div class="p-2">
-                                <img src="../images/presSte.webp"
-                                class="allenatore"  alt="">
+                                <img src="../images/presSte.webp" class="allenatore" alt="">
                             </div>
                         </div>
                         <div class="col-8 p-0 d-flex align-items-center">
@@ -156,12 +143,14 @@
                     </div>
                     <!-- body carta -->
                     <div class="p-3">
-                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsum veritatis quisquam distinctio ut alias. Voluptates, ratione molestias, minus necessitatibus velit magni sapiente doloribus ut ab excepturi possimus quisquam architecto.</h6>
+                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsum veritatis quisquam
+                            distinctio ut alias. Voluptates, ratione molestias, minus necessitatibus velit magni
+                            sapiente doloribus ut ab excepturi possimus quisquam architecto.</h6>
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-try modalStart">
                             Vedi tutti
                         </button>
-    
+
                     </div>
                 </div>
             </div>
@@ -171,8 +160,7 @@
                     <div class="row p-1">
                         <div class="col-4">
                             <div class="p-2">
-                                <img src="../images/logoBlack.png"
-                                class="allenatore"  alt="">
+                                <img src="../images/presTizi.webp" class="allenatore" alt="">
                             </div>
                         </div>
                         <div class="col-8 p-0 d-flex align-items-center">
@@ -181,12 +169,14 @@
                     </div>
                     <!-- body carta -->
                     <div class="p-3">
-                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsum veritatis quisquam distinctio ut alias. Voluptates, ratione molestias, minus necessitatibus velit magni sapiente doloribus ut ab excepturi possimus quisquam architecto.</h6>
+                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsum veritatis quisquam
+                            distinctio ut alias. Voluptates, ratione molestias, minus necessitatibus velit magni
+                            sapiente doloribus ut ab excepturi possimus quisquam architecto.</h6>
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-try modalStart">
                             Vedi tutti
                         </button>
-    
+
                     </div>
                 </div>
             </div>
@@ -198,8 +188,7 @@
                     <div class="row p-1">
                         <div class="col-4">
                             <div class="p-2">
-                                <img src="../images/presMiriam.webp"
-                                class="allenatore"  alt="">
+                                <img src="../images/presMiriam.webp" class="allenatore" alt="">
                             </div>
                         </div>
                         <div class="col-8 p-0 d-flex align-items-center">
@@ -209,41 +198,48 @@
                     <!-- body carta -->
                     <div class="p-3">
                         <h6>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsum veritatis quisquam distinctio ut alias. Voluptates, ratione molestias, minus necessitatibus velit magni sapiente doloribus ut ab excepturi possimus quisquam architecto.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsum veritatis quisquam
+                            distinctio ut alias. Voluptates, ratione molestias, minus necessitatibus velit magni
+                            sapiente doloribus ut ab excepturi possimus quisquam architecto.
                         </h6>
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-try modalStart">
                             Vedi tutti
                         </button>
-    
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-  <!-- Footer -->
-  <div class="row bg-black text-white py-3">
-    <!-- Social -->
-    <div class="col-12 row p-0 m-0">
-      <div class="col-3 col-md-4 col-lg-5 p-0 m-0 line"><hr class="text-white"></div>
-      <div class="col-6 col-md-4 col-lg-2 socials">
-        <!-- Instagram -->
-        <a target="_blank" href="https://www.instagram.com/respira_add?utm_source=qr&igsh=dGoxNWZ4Mm50MThu">
-          <img src="../images/instagram.png" alt="">
-        </a>
-        <!-- Facebook -->
-        <a href="">
-          <img src="../images/facebook.png" alt="">
-        </a>
-        <!-- Gmail -->
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=segreteria@respiraarteinmovimento.com" target="_blank">
-          <img src="../images/mail.png" alt="">
-        </a>
-      </div>
-      <div class="col-3 col-md-4 col-lg-5 p-0 m-0 line"><hr class="text-white"></div>
+    <!-- Footer -->
+    <div class="row bg-black text-white py-3">
+        <!-- Social -->
+        <div class="col-12 row p-0 m-0">
+            <div class="col-3 col-md-4 col-lg-5 p-0 m-0 line">
+                <hr class="text-white">
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 socials">
+                <!-- Instagram -->
+                <a target="_blank" href="https://www.instagram.com/respira_add?utm_source=qr&igsh=dGoxNWZ4Mm50MThu">
+                    <img src="../images/instagram.png" alt="">
+                </a>
+                <!-- Facebook -->
+                <a href="">
+                    <img src="../images/facebook.png" alt="">
+                </a>
+                <!-- Gmail -->
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=segreteria@respiraarteinmovimento.com"
+                    target="_blank">
+                    <img src="../images/mail.png" alt="">
+                </a>
+            </div>
+            <div class="col-3 col-md-4 col-lg-5 p-0 m-0 line">
+                <hr class="text-white">
+            </div>
+        </div>
     </div>
-  </div>
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

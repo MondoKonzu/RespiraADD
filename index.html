@@ -29,32 +29,17 @@
           </button>
           <div class="collapse navbar-collapse d-md-flex justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
+              <!-- page home -->
               <li class="nav-item">
                 <a class="nav-link text-white" aria-current="page" href="#">Home</a>
               </li>
+              <!-- page info -->
               <li class="nav-item">
                 <a class="nav-link text-white" href="./pages/info.html">Info</a>
               </li>
-              <!-- Dropdown se schermo sopra sm -->
-              <li class="nav-item show-sm">
-                <div class="dropdown">
-                  <a class="text-decoration-none text-white dropdown-toggle" href="#" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    Altro
-                  </a>
-
-                  <ul class="dropdown-menu nav-dropdown">
-                    <li><a class="dropdown-item text-white" href="./pages/extra.html">Esperienze Immersive</a></li>
-                    <li><a class="dropdown-item text-white" href="#">Eventi e Collaborazioni</a></li>
-                  </ul>
-                </div>
-              </li>
-              <!-- Incorpora i due elementi a tendina quando necessario -->
-              <li class="nav-item show-base">
-                <a class="dropdown-item text-white" href="./pages/extra.html">Esperienze Immersive</a>
-              </li>
-              <li class="nav-item show-base">
-                <a class="dropdown-item text-white" href="#">Eventi e Collaborazioni</a>
+              <!-- Page Eventi -->
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./pages/extra.html">Eventi</a>
               </li>
             </ul>
           </div>
@@ -98,11 +83,18 @@
     </div>
   </div>
 
-  <!-- row carousel -->
+  <!-- row video -->
   <div class="row px-md-4 mt-4 mx-auto">
-    <!-- Carousel -->
+    <!-- video -->
     <div class="col-lg-6 mt-3 mt-lg-0 px-lg-3">
-      <video id="my-video" width="100%" height="100%" loop="true" autoplay="true" muted="true" >
+      <video 
+      id="my-video" 
+      width="100%" 
+      height="100%" 
+      loop="true" 
+      autoplay="true" 
+      muted="true" 
+      >
         <source src="./sito respira/intro videoooooooo.mp4" type="video/mp4">
       </video>  
     </div>
