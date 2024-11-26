@@ -1,17 +1,56 @@
+:root{
+    --time-to-show: 0.4s
+}
+/* card handling */
 .cont-img-card{
     position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.cont-img-card img{
+    border-radius: 1rem;
 }
 
 .cont-img-card h1{
-    position: absolute;
-    bottom: 0%;
-    left: 50%;
-    transform: translate(-50%, 25%);
-    width: 100%;
     text-align: center;
-    background-image: linear-gradient(rgba(255, 255, 255, 0),black);
 }
 
+.cont-img-card div{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0),black);
+    transition: var(--time-to-show);
+    border-radius: 1rem;
+}
+
+.cont-img-card:hover div{
+    transition: var(--time-to-show);
+    transform: translateX(-50%);
+    top: 0%;
+    background-color: rgba(0, 0, 0, 0.40);
+    backdrop-filter: blur(2px);
+    height: 100%;
+}
+
+.cont-img-card span{
+    padding: 0 3%;
+    color: white;
+    transition: var(--time-to-show);
+    opacity: 0;
+    display: none;
+}
+
+.cont-img-card:hover span{
+    transition: var(--time-to-show);
+    opacity: 1;
+    display: block;
+}
+
+/* divider between schedes */
 .devider{
     font-family: monospace;
     height: 100%;
@@ -68,3 +107,4 @@
         width: 28% !important;
     }    
 }
+
