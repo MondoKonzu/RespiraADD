@@ -1,6 +1,6 @@
 //primi usi observer
-let texts = document.querySelectorAll(".myObsR, .myObsL, .myObsB");
-let vid = document.getElementById('my-video')
+const texts = document.querySelectorAll(".myObsR, .myObsL, .myObsB");
+const vid = document.getElementById('my-video')
 //i due dati devono essere obbligatori
 //observer serve per eseguire azioni di obs 
 //ma non deve essere passato
