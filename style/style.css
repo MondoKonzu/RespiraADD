@@ -4,7 +4,8 @@
 :root{
     --primary-respira: rgb(63, 224, 208);
     --secondary-respira: rgb(126, 255, 212);
-    --tertiary-respira:  ;
+    --secondary-respira-opactity-30: rgba(126, 255, 212, 0.3);
+    --tertiary-respira:  rgb(51, 230, 170);
     --fast-transition: 0.2s;
     --font-salt-regular: "Rock Salt", cursive;
 }
@@ -35,6 +36,10 @@ body > .row{
 
 .bg-secondary-res{
     background-color: var(--secondary-respira);
+}
+
+.bg-secondary-res-30{
+    background-color: var(--secondary-respira-opactity-30);
 }
 
 .bg-tertiary-res{

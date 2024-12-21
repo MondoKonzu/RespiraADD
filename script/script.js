@@ -1,6 +1,7 @@
 //primi usi observer
 const texts = document.querySelectorAll(".myObsR, .myObsL, .myObsB");
-const vid = document.getElementById('my-video')
+const vid = document.getElementById('my-video');
+const textToHide = document.querySelector("#textToHide");
 //i due dati devono essere obbligatori
 //observer serve per eseguire azioni di obs 
 //ma non deve essere passato
@@ -10,6 +11,7 @@ function actionPerformed(entry, observer){
         observer.unobserve(entry[0].target)
     }
 }
+
 
 addEventListener("DOMContentLoaded", () => {
     if(vid != null) vid.playbackRate = 0.1;
@@ -21,4 +23,3 @@ addEventListener("DOMContentLoaded", () => {
         o.observe(t);
     }
 })
-
