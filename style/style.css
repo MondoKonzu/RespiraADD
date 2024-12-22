@@ -86,7 +86,6 @@ body > .row{
 
 .navbar-brand img:last-child{
     width: 60% !important;
-    filter: invert(1);
 }
 
 .navbar-toggler-icon{

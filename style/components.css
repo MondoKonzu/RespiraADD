@@ -28,29 +28,6 @@
     border-radius: 1rem;
 }
 
-.cont-img-card:hover div {
-    transition: var(--time-to-show);
-    transform: translateX(-50%);
-    top: 0%;
-    background-color: rgba(0, 0, 0, 0.40);
-    backdrop-filter: blur(2px);
-    height: 100%;
-}
-
-.cont-img-card span {
-    padding: 0 3%;
-    color: white;
-    transition: var(--time-to-show);
-    opacity: 0;
-    display: none;
-}
-
-.cont-img-card:hover span {
-    transition: var(--time-to-show);
-    opacity: 1;
-    display: block;
-}
-
 /* divider between schedes */
 .devider {
     font-family: monospace;
