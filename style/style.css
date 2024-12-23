@@ -124,9 +124,13 @@ body > .row{
 
 
 /*tabelle orari*/
-.table-respira *{
+.table-respira th,td{
     background-color: transparent!important;
     text-align: center;
+}
+
+.table-respira tr:first-of-type{
+    background-color: var(--secondary-respira);
 }
 
 
