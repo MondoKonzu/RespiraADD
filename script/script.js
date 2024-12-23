@@ -1,7 +1,8 @@
 //primi usi observer
 const texts = document.querySelectorAll(".myObsR, .myObsL, .myObsB");
 const vid = document.getElementById('my-video');
-const textToHide = document.querySelector("#textToHide");
+const btnClip = document.getElementById("mail");
+const toastElList = document.querySelectorAll('.toast');
 //i due dati devono essere obbligatori
 //observer serve per eseguire azioni di obs 
 //ma non deve essere passato
@@ -23,3 +24,16 @@ addEventListener("DOMContentLoaded", () => {
         o.observe(t);
     }
 })
+
+
+
+const toastTrigger = document.getElementById('mail')
+const toastLiveExample = document.getElementById('liveToast')
+
+if (toastTrigger) {
+  const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+  toastTrigger.addEventListener('click', () => {
+    navigator.clipboard.writeText("segreteria@respiraarteinmovimento.com")
+    toastBootstrap.show()
+  })
+}
