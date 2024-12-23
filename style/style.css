@@ -168,18 +168,21 @@ body > .row{
     -webkit-box-shadow: inset 100px 0px 0px 0px var(--primary-respira);
     -moz-box-shadow: inset 100px 0px 0px 0px var(--primary-respira); 
 }
-/* etichetta superiore */
-.etic{
-    background-color: var(--primary-respira);
-    width: fit-content;
-    padding: 0 5rem;
-    margin: auto;
-    border-radius: 50vw;
-}
 
 .modal-body{
     overflow-wrap: break-word !important;
 }
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
 
 /* Responsive md*/
 @media only screen and (max-width: 768px) {
